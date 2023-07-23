@@ -20,4 +20,4 @@ const handleFormInputFocus = async () => {
   await getMealCategories();
 };
 
-searchTermsInput.addEventListener('focus', handleFormInputFocus)
+searchTermsInput.addEventListener("focus", handleFormInputFocus);
