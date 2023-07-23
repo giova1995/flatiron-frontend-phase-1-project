@@ -22,14 +22,14 @@ const getAirCategories = async () => {
 // render air categories data
 const airCategories = (airCategoriesObj) => {
   console.log("renderAirCategories");
-  console.table(mealCategoriesObj);
+  console.table(airCategoriesObj);
 };
 
 // function to call when form input is given focus
 const handleFormInputFocus = async () => {
   console.log("focus occurred");
 
-  const mealCategoriesObj = await getAirCategories();
+  const airCategoriesObj = await getAirCategories();
   renderAirCategories(airCategoriesObj);
 };
 
