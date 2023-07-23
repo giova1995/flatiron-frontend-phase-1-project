@@ -14,6 +14,7 @@ const getMealCategories = async () => {
     console.log(error);
     alert("Something went wrong, try again later");
 }
+};
 const handleFormInputFocus = async () => {
   console.log("focus occurred");
 
