@@ -26,10 +26,8 @@ const airCategories = (airCategoriesObj) => {
   // find and select a UL with air quality categories ID dom element to append my data into
   const airCategoriesList = document.body.querySelector("#air-categories-list");
 
-  // for each element in our air qua;ity categories array
-  // create a wrapping element maybe <article> class of card
-  //appendChild the article.card to selected DOM element
-  //append the article.card to DOM
+  // for each element in our air categories array
+  airCategoriesArray.forEach((airCategories) => {
   // display category name, image and description
   // image
   // create an image element
