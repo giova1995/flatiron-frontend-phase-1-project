@@ -2,7 +2,6 @@ console.log("main.js connected");
 
 // get search field input
 const searchTermsInput = document.body.querySelector("#search-terms");
-
 // fetch air quality categories data from the AQICN API
 const getAirCategories = async () => {
   const airCategoriesApiURL = "https://aqicn.org/api/";
