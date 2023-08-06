@@ -28,6 +28,11 @@ const airCategories = (airCategoriesObj) => {
 
   // for each element in our air categories array
   airCategoriesArray.forEach((airCategories) => {
+    // create wrapping element maybe <li> class of card
+    const airCategoryListItem = document.createElement("li");
+    airCategoryListItem.className = "air-category-card/";
+    airCategoriesList.appendChild(airCategoryListItem);
+  });
   // display category name, image and description
   // image
   // create an image element
