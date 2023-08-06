@@ -38,7 +38,8 @@ const airCategories = (airCategoriesObj) => {
   // create an img element
   const airCategoryImg = document.createElement("img");
   // set img src to category thumbnail url
-  // give class of category-thumbnail
+  airCategoryImg.src = airCategory?.thumbnail;
+
   // give it a mobile friendly max width of like 300px
   //appendChild the image to our card
   // name
