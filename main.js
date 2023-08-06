@@ -35,7 +35,8 @@ const airCategories = (airCategoriesObj) => {
   });
   // display category name, image and description
   // image
-  // create an image element
+  // create an img element
+  const airCategoryImg = document.createElement("img");
   // set img src to category thumbnail url
   // give class of category-thumbnail
   // give it a mobile friendly max width of like 300px
