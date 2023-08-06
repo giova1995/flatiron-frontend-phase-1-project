@@ -24,6 +24,7 @@ const airCategories = (airCategoriesObj) => {
   console.log("renderAirCategories");
   console.table(airCategoriesObj);
   // find and select a UL with air quality categories ID dom element to append my data into
+  const airCategoriesList = document.body.querySelector("#air-categories-list");
 
   // for each element in our air qua;ity categories array
   // create a wrapping element maybe <article> class of card
