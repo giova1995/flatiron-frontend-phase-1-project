@@ -47,7 +47,11 @@ const airCategories = (airCategoriesObj) => {
   // name
   // create an h4 element
   // set h4 element textContent to be an air quality category name
-  //appendChild the image to our card
+  airCategoryName.textContent = airCategory?.name;
+
+  //appendChild the h4 to our card
+  airCategoryListItem.appendChild(airCategoryName);
+
   //description
   // create an p element
   // set p element textContent to be an air quality category name
