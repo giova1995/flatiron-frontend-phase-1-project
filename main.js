@@ -19,7 +19,7 @@ const getAirCategories = async () => {
   }
 };
 
-// render air categories data
+// render air categories data to dom
 const airCategories = (airCategoriesObj) => {
   console.log("renderAirCategories");
   console.table(airCategoriesObj);
