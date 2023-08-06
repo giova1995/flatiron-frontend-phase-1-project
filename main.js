@@ -56,8 +56,11 @@ const airCategories = (airCategoriesObj) => {
 
   //description
   // create an p element
+  const airCategoryDescription = document.createElement("p");
   // set p element textContent to be an air quality category name
+  airCategoryDescription.textContent = airCategory?.strCategoryDescription;
   //appendChild the image to our card
+  airCategoryListItem.appendChild(airCategoryDescription);
 };
 
 // function to call when form input is given focus
