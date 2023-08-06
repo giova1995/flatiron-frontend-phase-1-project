@@ -72,4 +72,4 @@ const handleFormInputFocus = async () => {
 };
 
 // add event listener to search term
-searchTermsInput.addEventListener('focus', handleFormInputFocus);
+searchTermsInput.addEventListener("focus", handleFormInputFocus);
