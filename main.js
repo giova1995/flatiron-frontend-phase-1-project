@@ -41,6 +41,8 @@ const airCategories = (airCategoriesObj) => {
   airCategoryImg.src = airCategory?.thumbnail;
 
   // give it a mobile friendly max width of like 300px
+  airCategoryImg.width = 300;
+
   //appendChild the image to our card
   // name
   // create an h4 element
